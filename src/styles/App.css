@@ -1,0 +1,30 @@
+.counter {
+	width: 500px;
+	margin: 0 auto;
+	padding: 15px;
+	text-align: center;
+	color: #fff;
+}
+
+.counter > h1 {
+	margin-bottom: 30px;
+}
+
+.counter__count {
+	margin-bottom: 50px;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+.counter__controls {
+	display: flex;
+	justify-content: center;
+	margin: 0 -20px;
+}
+
+.counter__controls > button {
+	padding: 10px;
+	border-radius: 5px;
+	margin: 0 20px;
+	font-size: 20px;
+}
